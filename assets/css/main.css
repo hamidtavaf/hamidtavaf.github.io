@@ -2717,7 +2717,7 @@ input, select, textarea {
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 14em;
 			}
 
 			#header > header h1 {
@@ -2922,7 +2922,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3345,7 +3345,7 @@ input, select, textarea {
 
 					#header > header .avatar {
 						margin: 0 auto 1.6875em auto;
-						width: 6em;
+						width: 10em;
 					}
 
 					#header > header h1 {
