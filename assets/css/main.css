@@ -121,7 +121,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
+		color: #00000;
 		font-weight: 700;
 	}
 
@@ -2640,20 +2640,19 @@ input, select, textarea {
 
 		.features article .image {
 			display: inline-block;
-			padding-right: 2.5em;
+			padding-right: 0.5em;
+			padding-bottom: 0.5em;
 			vertical-align: middle;
-			width: 48%;
 		}
 
 			.features article .image img {
 				display: block;
-				width: 100%;
 			}
 
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 65%;
 		}
 
 			.features article .inner > :last-child {

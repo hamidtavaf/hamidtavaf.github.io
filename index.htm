@@ -30,9 +30,9 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#about", class="active">About</a></li>
 						<li><a href="#research">Research Interest</a></li>
-						<!-- <li><a href="#projects">Projects</a></li> -->
+						<li><a href="#projects">Projects</a></li>
 						<li><a href="#publication">Publications</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
@@ -60,10 +60,17 @@
 										<h3>About Me</h3>
 									</header>
 									<p><p>I am a postdoctoral researcher at the University of California, Berkeley working with <a href="https://people.eecs.berkeley.edu/~varaiya/"> Prof. Pravin Varaiya</a> and <a href="https://bcci.me.berkeley.edu/~poolla/"> Prof. Kameshwar Poolla </a>. 
-									I received my PhD in Electrical Engineering: Systems from the University of Michigan, Ann Arbor, in 2017, working with Prof. Demosthenis Tenekezis <a href= https://teneketzis.engin.umich.edu></a>. I received my MA in Economics in 2017 and my MSc in Electrical Engineering in 2013 the University of Michigan. I was a member of <a href="http://sustainability.umich.edu/dow"> Dow Sustainability Fellows program from 2015 to 2017. I received my BSc in Electrical Engineering from Sharif University of Technology, Tehran, Iran, 2011.
+									I received my PhD in Electrical Engineering: Systems from the University of Michigan, Ann Arbor, in 2017, working with Prof. Demosthenis Tenekezis <a href= https://teneketzis.engin.umich.edu></a>. I received my MA in Economics in 2017 and my MSc in Electrical Engineering in 2013 the University of Michigan. I was a member of <a href="http://sustainability.umich.edu/dow"> Dow Sustainability Fellows program </a>from 2015 to 2017. I received my BSc in Electrical Engineering from Sharif University of Technology, Tehran, Iran, 2011.
 									Before that, I was a Silver medalist of 37th International Physics Olympiad, Singapore, 2006, and a Gold medalist of 18th National Physics Olympiad, Iran, 2005. </p>
 
 									<p> For more information please find my <a href="CV_Tavafoghi.pdf"> CV </a>.</p>
+									
+									
+									<h4> Education </h4>
+									&bullet; Ph.D., Electrical Engineering, University of Michigan, 2017 <br>
+									&bullet; M.A., Economics, University of Michigan, 2017 <br>
+									&bullet; M.Sc., Electrical Engineering, University of Michigan, 2013 <br>
+									&bullet; B.Sc., Electrical Engineering, Sharif University of Technology, 2011
 								</div>
 							</section>
 
@@ -75,35 +82,123 @@
 									<ul class="feature-icons">
 										<li class="fa-gears">Data-driven decision making in socio-technological systems</li>
 										<li class="fa-cubes">Decisions and learning in dynamic systems with partial and asymmetric information</li><br>
-										<li class="fa-cubes">Incentives and platform regulation in shared-economy</li>
+										<li class="fa-cubes">Incentives and platform regulation in the sharing-economy</li>
 										<li class="fa-gears">Mechanism design for electricity markets and transporation information platforms</li>
 									</ul>
 								</div>
 							</section>
 						
 						<!-- Three -->
-	<!--						<section id="project">
+							<section id="projects">
 								<div class="container">
 									<h3>Selected Projects</h3>
 									<p></p>
 									<div class="features">
+										<article>
+										<a href="#J5" class="image"><img src="images\parking.png" alt="" width="250"></a>
+											<div class="inner">
+												<h4>Parking modeling & prediction - a queuing approach <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla and Pravin Varaiya)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> We propose a queuing model with a non-homogeneous arrival rate and time-varying service time distribution to capture the parking dynamics. We verify all assumptions of
+											the model using statistical tests on real data, which provides empirical support for queuing models adopted in
+											many theoretical studies. We propose two prediction methods, a microscopic method for short forecast horizon
+											(~up to 2 hours), and a macroscopic method for long forecast horizons (~4 to 48 hours). We demonstrate that
+											our proposed methods outperform existing model-based and model-free methods proposed in the literature.</em> <br>
+											<b>Related paper: [S8]</b></p>
+						
+										</article>
+										<article>
+										<a href="#J5" class="image"><img src="images\infodesign.jpg" alt="" width="150"></a>
+											<div class="inner">
+												<h4>Information design in transportation networks <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla, Akhil Shetty, Demosthenis Teneketzis, and Pravin Varaiya)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> We study the design of information platforms as an information
+											mechanism design problem. We show that a social planner can improve congestion by
+											providing either a public imperfect information signal about road conditions, or alternatively, coordinated
+											private route suggestions to each driver. We investigate how the structure of the optimal mechanism changes in a dynamic setting where drivers learn from their past experience. We then study competitive environments with for-profit platforms. We show that each platform finds it optimal to fully disclose its information for free. As such, we demonstrate that a competitive environment with multiple platforms can result in increased congestion compared to the outcome under a single information platform or in the absence of any information platforms. </em> <br>
+											<b>Related papers: [C8,C6,W2]</b></p>
+										</article>
+										<article>
+										<a href="#J5" class="image"><img src="images\multi-agent.png" alt="" width="180" ></a>
+											<div class="inner">
+												<h4>A unified approach to dynamic decision-making in multi-agent POMDPs: strategic and non-strategic agents<a href="#J5"> </a><br><font size="3">(joint with Demosthenis Teneketzis, and Ouyang Yi)</font> </h4>
+									         
+									           </div>
+											<p> <b>Summary:</b> In multi-agent Markov decision problems with partial observations (multi-agent POMDPs), there is a circular dependency between agents' strategies and beliefs over time. The analysis of these problems is a challenging task as the computational complexity grows exponentially with the time and the number of agents. We develop a framework addressing these scalability and complexity challenges. We generalize the notion of information state in partially observable Markov Decision Processes (POMDP) to multi-agent POMDPs. Our framework unifies and generalizes various existing results in the literature from both control theory and game theory literature. Our results provide a reduction of (a) dynamic team problems with non-classical information structure to a sequence of static centralized problems, and (b) dynamic games with asymmetric information to a sequence of static games with symmetric information. </em> <br>
+											<b>Related papers: [S6,S7,B1]</b></p>
+										</article>
+										<article>
+										<a href="#J5" class="image"><img src="images\RL.jpg" alt="" width="200"></a>
+											<div class="inner">
+												<h4>An asymptotically regret-optimal algorithm for reinforcement learning in POMDPs - a sequential hypothesis testing framework<a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla, and Pravin Varaiya)</font> </h4>
+									         
+									           </div>
+											<p> <b>Summary:</b> We develop reinforcement learning algorithms with theoretical regret guarantees for both single-agent and multi-agent POMDPs with an average cost objective. Formulating the problem as a <i>sequential hypothesis testing</i>, we characterize a lower bound on the regret in a singe-agent POMDP. We explicitly quantify the trade-off between exploration and  exploitation, enabling us to design an (asymptotically) regret-optimal algorithm. The algorithm is compromised of a sequence of separate episodes for exploration and exploitation, the length of which are determined adaptively over time to ensure the optimal trade-off between exploration and exploitation. We further generalize our results to multi-agent POMDPs using the transformation framework we developed in [S6,S7]. In particular, to address the coordination issue between agents who have asymmetric partial information, we use the common information among the agents as the coordination device to adjust the length of the exploration and exploitation episodes. </em> <br>
+											<b>Related papers: [W3]</b></p>
+										</article>
+										<article>
+										<a href="#J5" class="image"><img src="images\ridehailing.png" alt="" width="250"></a>
+											<div class="inner">
+												<h4>Regulation of ride-hailing platforms <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla, Sen Li, and Pravin Varaiya)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> Using a queuing model, we investigate the effect of the recently implemented regulations in NewYork City on
+											drivers, riders, platforms, and overall society. We show that the minimum wage regulation can result in an increase in the number of drivers, riders, and traffic congestion, while reducing the platform revenue and pickup time. Moreover, imposing a cap on the number of drivers hurts drivers and riders as the platform reaps all the benefits of limiting supply, and results in fewer riders with longer waiting times.</em> <br>
+											<b>Related paper: [J5]</b></p>
+									
+										</article>
+										<article>
+										<a href="#J5" class="image"><img src="images\electricity.png" alt="" width="250"></a>
+											<div class="inner">
+												<h4>Dynamic market design for renewable energy <a href="#J5"> </a><br><font size="3">(joint with Demosthenis Teneketzis)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> Unlike conventional resources in enrgy power systems, information about renewable generation and 
+											flexible loads arrives dynamically over time; for instance, the wind
+											generation depend on the real-time wind speed. Accordingly, we propose a class of <i>dynamic contracts </i>and <i>dynamic handicapped auctions</i> to procure renewable generation or demand flexibility by an aggregator. The dynamic nature of the mechanisms allow sellers to adjust their position in the market according to new information they individually acquire over time while enabling the aggregator to determine its forward commitment level to serve inflexible demand in advance.</em> <br>
+											<b>Related papers: [W1,J2,C3,C1]</b></p>
+						
+										</article>
+									<article>
+										<a href="#J5" class="image"><img src="images\security.png" alt="" width="250"></a>
+											<div class="inner">
+												<h4>Dynamic resource allocation and incentive mechanism for security in networks of interdependent agents <a href="#J5"> </a><br><font size="3">(joint with Farzaneh Farhadi, Jamal Golestani, and Demosthenis Teneketzis)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> We study the design of incentive mechanisms to improve security in a network of	interdependent agents. On one hand, the strategic behaviors of agents become more complex in a dynamic setting, as each agent can coordinate its decisions over time. On the other hand, a dynamic setting creates new opportunities for designing incentive mechanisms by exploiting the inter-temporal correlation of observations over time. Exploiting the inter-temporal correlation of agents' observations over time, we construct a set of inference signals about every agent's decision and information. We then construct incentive payments to internalize the effect of each agent on the overall network security level. Accordingly, we propose an incentive mechanism that is socially ecient, incentive compatible, and individually rational for all agents. Our results are in contrast to prior impossibility results which state that such effcient mechanisms do not exist for static settings.</em> <br>
+											<b>Related papers: [J4,C5]</b></p>
+									
+										</article>
+									<article>
+										<a href="#J5" class="image"><img src="images\SPaT.png" alt="" width="250"></a>
+											<div class="inner">
+												<h4>Signal phase and timing prediction for eco-driving <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla and Pravin Varaiya)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> A Signal Phase and Timing  (SPaT) system is an intersection infrastructure that broadcasts information about the current phase and predictions about upcoming phase transitions at a signalized intersection. In collaboration with Sensys Network Inc., I have developed a prediction method to generate SPaT massage to be implemented in a pilot program in the Live Oak corridor with eight intersections in Arcadia, California. Our method exploits the correlation among coordinated intersections and the interdependence among phases in the active ring barrier diagram over time. Compared to the existing methods, our results generate SPaT messages with improved prediction accuracy and confidence intervals.</em> <br>
+											<b>Related paper: [W5]</b></p>
+									
+										</article>
 									</div>
 								</div>
 
-							</section> -->
+							</section> 
 
 						<!-- Four -->
 							<section id="publication">
 								<div class="container">
 									<h3>Publications</h3>
 									<h4>Working papers</h4>
-	<p>[W5] H. Tavafoghi}, K. Poolla, and P. Varaiya, "Approximate Information State and Reinforcement Learning in
-	Multi-Agent POMDPs", <i> in preparation, 2019.</p>
+	<p>[W5]  H. Tavafoghi}, K. Poolla, and P. Varaiya, "Prediction of Phase Durations for SPaT Messages in Actuated and Coordinated Traffic Signals", <i> work in progress</i>, 2019.	</p>
 
-	<p>[W4]  H. Tavafoghi, K. Poolla, and P. Varaiya, "On Asymptotically Regret-Optimal Reinforcement Learning in Multi-Agent POMDPs", <i> in preparation</i>, 2019.	</p>
+	<p>[W4] H. Tavafoghi}, K. Poolla, and P. Varaiya, "Approximate Information State and Reinforcement Learning in
+	Multi-Agent POMDPs", <i> in preparation</i>, 2019.</p>
+
+	<p>[W3]  H. Tavafoghi, K. Poolla, and P. Varaiya, "On Asymptotically Regret-Optimal Reinforcement Learning in Multi-Agent POMDPs", <i> in preparation</i>, 2019.	</p>
 	
-	<p>[W3]  H. Tavafoghi}, K. Poolla, and P. Varaiya, "Prediction of Phase Durations for SPaT Messages in Actuated and Coordinated Traffic Signals", <i> in preparation</i>, 2019.	</p>
-									<p> [W2] H. Tavafoghi and D. Teneketzis, "On Provision of Information in Transportation Networks", <i> working paper</i>, <a href="https://hamidtavaf.github.io/infodesign_routing.pdf"> (draft link)</a>, 2018. </p>
+	<p> [W2] H. Tavafoghi and D. Teneketzis, "On Provision of Information in Transportation Networks", <i> working paper</i>, <a href="https://hamidtavaf.github.io/infodesign_routing.pdf"> (draft link)</a>, 2018. </p>
 									<p> [W1] H. Tavafoghi and D. Teneketzis, "Dynamic Market Mechanisms for Wind Energy",  <i> working paper</i>, <a href="https://arxiv.org/pdf/1608.04143.pdf"> (arXiv 1608:04143)</a>, 2017 . </p>
 									
 									
@@ -112,7 +207,7 @@
 									<p> [S8] <a href="https://arxiv.org/pdf/1908.11479.pdf"> H. Tavafoghi, K. Poolla, and P. Varaiya, "A Queuing Approach to Parking: Modeling, Verification, and Prediction", <i>under review in Transportation Research: Part B</i>, 2019. </a></p>
 									<p> [S7] <a href="https://arxiv.org/abs/1812.01132"> H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Unified Approach to Dynamic Decision Problems with Asymmetric Information-Part II: Strategic Agents", <i>under review in IEEE Transations on Automatic Control</i>, 2018.</a>
 									<p> [S6] <a href="https://arxiv.org/abs/1812.01130"> H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Unified Approach to Dynamic Decision Problems with Asymmetric Information-Part I: Non-Strategic Agents", <i>under review in IEEE Transations on Automatic Control</i>, 2018.</a>
-									<p> [J5] <a href="https://doi.org/10.1016/j.trb.2019.09.008"> S. Li, H. Tavafoghi, K. Poolla, and P. Varaiya, "Regulating TNCs: Should Uber and Lyft Set Their Own Rules?", <i> Transportation Research: Part B</i>, 2019. </a></p>
+									<p> <b id="#J5"> [J5] </b> <a href="https://doi.org/10.1016/j.trb.2019.09.008"> S. Li, H. Tavafoghi, K. Poolla, and P. Varaiya, "Regulating TNCs: Should Uber and Lyft Set Their Own Rules?", <i> Transportation Research: Part B</i>, 2019. </a></p>
 									<p> [J4] <a href="https://link.springer.com/article/10.1007/s13235-018-0284-4"> F. Farhadi, H. Tavafoghi, D. Teneketzis, and J. Golestani, "An Efficient Dynamic Allocation Mechanism for Security in Networks of Interdependent Strategic Agents", <i>Dynamic Games and Applications, Springer</i>, 2018 </a>.
 									<p> [J3] <a href="http://ieeexplore.ieee.org/document/7438815/">Y. Ouyang, H. Tavafoghi, and D. Teneketzis, "Dynamic Games with Asymmetric Information: Common Information Based Perfect Bayesian Equilibria and Sequential Decomposition", <i>IEEE Transactions on Automatic Control</i>, 2017.</a></p>
 									<p> [J2] <a href="http://ieeexplore.ieee.org/document/7384715/">H. Tavafoghi and D. Teneketzis, "Multi-Dimensional Forward Contracts under Uncertainty for Electricity Markets" <i>IEEE Transactions on Control of Network Systems</i>, 2017.</a></p>
@@ -140,8 +235,11 @@
 
 									<p> [C1] <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7028436"> H. Tavafoghi and D. Teneketzis, "Optimal Contract Design for Energy Procurement" <i>The 52th Annual Allerton Conference on Communication, Control, and Computing</i>, 2014. </a></p>
 
+									<h4>Book Chapter</h4>
+									<p>	[B1] <a href="https://link.springer.com/chapter/10.1007/978-3-030-30719-6_3"> H. Tavafoghi, Y. Ouyang, D. Teneketzis, and M. Wellman, "Game Theoretic Approaches to Cyber Security: Issues and Challenges" in <i> Adversarial and Uncertain Reasoning for Adaptive Cyber Defense</i> (editor: Sushil Jajodia), Springer, 2019. </a></p>
+										
 									<h4>Thesis</h4>
-									<p><a href="https://deepblue.lib.umich.edu/handle/2027.42/140850"> H. Tavafoghi, "On Analysis and Design of Cyber-physical Systems with Strategic Agents", <i>Ph.D. Dissertation, University of Michigan</i>, September 2017 </a>.	
+									<p><a href="https://deepblue.lib.umich.edu/handle/2027.42/140850"> H. Tavafoghi, "On Analysis and Design of Cyber-physical Systems with Strategic Agents", <i>Ph.D. Dissertation, University of Michigan</i>, September 2017. </a>	</p>
 
 
 								</div>
@@ -153,10 +251,9 @@
 									<h3>Contact Me</h3>
 									<p>tavaf (at) berkeley (dot) edu</p>												
 											</div>
-										</section></div>
-									</form>
+										</section>
 								</div>
-							
+				</div>
 
 	
 				<!-- Footer -->
