@@ -63,7 +63,7 @@
 									I received my PhD in Electrical Engineering: Systems from the University of Michigan, Ann Arbor, in 2017, working with Prof. Demosthenis Tenekezis <a href= https://teneketzis.engin.umich.edu></a>. I received my MA in Economics in 2017 and my MSc in Electrical Engineering in 2013 the University of Michigan. I was a member of <a href="http://sustainability.umich.edu/dow"> Dow Sustainability Fellows program </a>from 2015 to 2017. I received my BSc in Electrical Engineering from Sharif University of Technology, Tehran, Iran, 2011.
 									Before that, I was a Silver medalist of 37th International Physics Olympiad, Singapore, 2006, and a Gold medalist of 18th National Physics Olympiad, Iran, 2005. </p>
 
-									<p> For more information please find my <a href="CV_Tavafoghi.pdf"> CV </a>.</p>
+									<p> For more information please find my <a href="CV_Tavafoghi.pdf"> CV</a>.</p>
 									
 									
 									<h4> Education </h4>
@@ -104,9 +104,32 @@
 											many theoretical studies. We propose two prediction methods, a microscopic method for short forecast horizon
 											(~up to 2 hours), and a macroscopic method for long forecast horizons (~4 to 48 hours). We demonstrate that
 											our proposed methods outperform existing model-based and model-free methods proposed in the literature.</em> <br>
-											<b>Related paper: [W6]</b></p>
+											<b>Related paper: [W5]</b></p>
 						
 										</article>
+										<article>
+										<a href="#J5" class="image"><img src="images\queue.png" alt="" width="300"></a>
+											<div class="inner">
+												<h4>Queue Length Estimation from Connnected Vehicles<a href="#J5"> </a><br><font size="3">(joint with Jared Porter, Kameshwar Poolla, and Pravin Varaiya)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> We develop an estimation algorithm that enables us to estimate queue length at every leg of an intersection only using trace data from connected with penetration rate ~1%. We demosntrate the accuracy of our algorithm using real-world data and compare it to measurements done by physical sensors. Our proposed algorithm provide a novel approach to generate metrics that are neede for performance evaluation, optimization, and real-time operation of urban intersections. In contrast to existing technique to estimate queue length, our algorithm does not require physical harware, provide full coverage of transportaion network, and has negligible costs.   </em> <br>
+											<b>Related paper: [W8]</b></p>
+						
+										</article>
+									<article>
+										<a href="#J5" class="image"><img src="images\SPaT.png" alt="" width="180"></a>
+											<div class="inner">
+												<h4>Safety Assessments for Autonomous Vehicles in Urban Environemnts <a href="#J5"> </a><br><font size="3">(joint with Akhil Shetty, Mengqiao Yu, Alex Kurzhanskiy, and Pravin Varaiya)</font> </h4>
+									           
+									           </div>
+											<p> <b>Summary:</b> We develop a framework to study hazardous scenarios involving information gaps that routinely occur
+in dense urban environments. In particular, we study three groups of scenarios with information gaps: (i) occlusions,
+(ii) traffic violations, and (iii) behavior prediction uncertainty. We utilize empirical data to estimate the risk associated with each scenario for AVs. We further analyze the practical value of alternative framework such as Mobileye’s RSS framework (worst-case) and connectivity (V2V and I2V). </em> <br>
+											<b>Related paper: [W7]</b></p>
+									
+										</article>
+
 										<article>
 										<a href="#J5" class="image"><img src="images\infodesign.jpg" alt="" width="120"></a>
 											<div class="inner">
@@ -119,6 +142,7 @@
 											private route suggestions to each driver. We investigate how the structure of the optimal mechanism changes in a dynamic setting where drivers learn from their past experience. We then study competitive environments with for-profit platforms. We show that each platform finds it optimal to fully disclose its information for free. As such, we demonstrate that a competitive environment with multiple platforms can result in increased congestion compared to the outcome under a single information platform or in the absence of any information platforms. </em> <br>
 											<b>Related papers: [C8,C6,W2]</b></p>
 										</article>
+
 										<article>
 										<a href="#J5" class="image"><img src="images\multi-agent.png" alt="" width="132" ></a>
 											<div class="inner">
@@ -126,7 +150,7 @@
 									         
 									           </div>
 											<p> <b>Summary:</b> In multi-agent Markov decision problems with partial observations (multi-agent POMDPs), there is a circular dependency between agents' strategies and beliefs over time. The analysis of these problems is a challenging task as the computational complexity grows exponentially with the time and the number of agents. We develop a framework addressing these scalability and complexity challenges. We generalize the notion of information state in partially observable Markov Decision Processes (POMDP) to multi-agent POMDPs. Our framework unifies and generalizes various existing results in the literature from both control theory and game theory literature. Our results provide a reduction of (a) dynamic team problems with non-classical information structure to a sequence of static centralized problems, and (b) dynamic games with asymmetric information to a sequence of static games with symmetric information. </em> <br>
-											<b>Related papers: [J6,W5,B1]</b></p>
+											<b>Related papers: [W6,W4,J6,B1]</b></p>
 										</article>
 										<article>
 										<a href="#J5" class="image"><img src="images\RL.jpg" alt="" width="144"></a>
@@ -170,16 +194,6 @@
 											<b>Related papers: [J4,C5]</b></p>
 									
 										</article>
-									<article>
-										<a href="#J5" class="image"><img src="images\SPaT.png" alt="" width="180"></a>
-											<div class="inner">
-												<h4>Signal phase and timing prediction for eco-driving <a href="#J5"> </a><br><font size="3">(joint with Kameshwar Poolla and Pravin Varaiya)</font> </h4>
-									           
-									           </div>
-											<p> <b>Summary:</b> A Signal Phase and Timing  (SPaT) system is an intersection infrastructure that broadcasts information about the current phase and predictions about upcoming phase transitions at a signalized intersection. In collaboration with Sensys Network Inc., I have developed a prediction method to generate SPaT massage to be implemented in a pilot program in the Live Oak corridor with eight intersections in Arcadia, California. Our method exploits the correlation among coordinated intersections and the interdependence among phases in the active ring barrier diagram over time. Compared to the existing methods, our results generate SPaT messages with improved prediction accuracy and confidence intervals.</em> <br>
-											<!--<b>Related paper: [W5]</b></p>-->
-									
-										</article>
 									</div>
 								</div>
 
@@ -192,16 +206,24 @@
 									<h3>Publications</h3>
 									<h4>Working/Submitted</h4>
 	<!--<p>[W5]  H. Tavafoghi, K. Poolla, and P. Varaiya, "Prediction of Phase Durations for SPaT Messages in Actuated and Coordinated Traffic Signals", <i> work in progress</i>, 2019.	</p> -->
+									<p> [W8] H. Tavafoghi, J. Porter, K. Poolla, and P. Varaiya, "Queue Length Estimation from Connected Vehicles", <i> working Paper</i>, 2021. </p>
 
-									<p> [W6] <a href="https://arxiv.org/pdf/1908.11479.pdf"> H. Tavafoghi, K. Poolla, and P. Varaiya, "A Queuing Approach to Parking: Modeling, Verification, and Prediction", <i> working aper</i>, 2019. </a></p>
-									<p> [W5] <a href="https://arxiv.org/abs/1812.01132"> H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Unified Approach to Dynamic Decision Problems with Asymmetric Information-Part II: Strategic Agents", <i>working paper</i>, 2019.</a>
+									<p> [W7] A. Shetty, M. Yu, A. Kurzhanskiy, O. Grembek, H.Tavafoghi and P. Varaiya, "Safety Challenges for Autonomous Vehicles in the Absence of Connectivity", <i> working paper</i>, <a href="https://hamidtavaf.github.io/safety.pdf"> (draft link)</a>, 2021. </p>
+									
+									<p> [W6] D. Tang, H. Tavafoghi, V. Subramanian, A. Nayyar, and D. Teneketzis, "Games of Teams with Delayed Internal Information Sharing: A Common Information Approach", <i> working paper</i> <a href="https://arxiv.org/abs/2102.11920"> (draft available)</a>, 2021.</p>
+
+									<p> [W5] H. Tavafoghi, K. Poolla, and P. Varaiya, "A Queuing Approach to Parking: Modeling, Verification, and Prediction", <i> working Paper</i> <a href="https://arxiv.org/pdf/1908.11479.pdf"> (draft available)</a>, 2020. </p>
+									
+
+									
+									<p> [W4] H. Tavafoghi, Y. Ouyang, and D. Teneketzis, "A Unified Approach to Dynamic Decision Problems with Asymmetric Information-Part II: Strategic Agents", <i>working paper </i> <a href="https://arxiv.org/abs/1812.01132"> (draft available) </a>, 2020.
 										
-									<p> [W4] D. Tang, H. Tavafoghi, V. Subramanian, A. Nayyar, and D. Teneketzis, "Games of Teams with Delayed Internal Information Sharing: A Common Information Approach", <i> working paper</i>, 2020.</p>
 	
 
-									<p>[W3]  H. Tavafoghi, K. Poolla, and P. Varaiya, "On Asymptotically Regret-Optimal Reinforcement Learning in Multi-Agent POMDPs", <i> in preparation</i>, 2020.	</p>
+									<p>[W3]  H. Tavafoghi, K. Poolla, and P. Varaiya, "On Asymptotically Regret-Optimal Reinforcement Learning in Multi-Agent POMDPs", <i> working paper </i>, 2020.	</p>
 	
 									<p> [W2] H. Tavafoghi and D. Teneketzis, "Strategic Information Provision in Routing Games", <i> working paper</i>, <a href="https://hamidtavaf.github.io/infodesign_routing.pdf"> (draft link)</a>, 2018. </p>
+									
 									<p> [W1] H. Tavafoghi and D. Teneketzis, "Dynamic Market Mechanisms for Wind Energy",  <i> working paper</i>, <a href="https://arxiv.org/pdf/1608.04143.pdf"> (arXiv 1608:04143)</a>, 2017 . </p>
 	
 									
